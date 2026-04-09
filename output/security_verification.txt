@@ -1,0 +1,116 @@
+=== Security Scan Output ===
+# Security Scan Report
+
+**Generated:** 20260408_234923  
+**Directory:** `/Users/jeremyparker/Desktop/Claude Coding Projects/HW 8`  
+**Duration:** 8.0s
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| Critical findings | 0 |
+| Warning findings | 0 |
+| Tools run | trivy, gitignore-check, bearer, horusec, gitleaks, pattern-scanner, bandit, semgrep, detect-secrets, pip-audit |
+| Tools failed/skipped | none |
+| Scan duration | 8.0s |
+
+## Critical Findings
+
+None found.
+
+## Warning Findings
+
+None found.
+
+## Tools Not Installed
+
+Install these tools to improve scan coverage:
+
+- **bearer:** `brew install bearer/tap/bearer`
+- **horusec:** Download binary from GitHub releases (https://github.com/ZupIT/horusec)
+
+## Infrastructure Tools (Manual Setup Required)
+
+These tools require separate infrastructure setup and are not run inline:
+
+- **SonarQube:** Requires a running server + project configuration. https://www.sonarsource.com/products/sonarqube/
+- **CodeQL:** Requires GitHub Actions or multi-GB binary install + query compilation. https://codeql.github.com/
+- **OWASP ZAP:** DAST proxy scanner (dynamic, not static analysis). https://www.zaproxy.org/
+- **OpenVAS:** Network/infrastructure vulnerability scanner; not a code scanner. https://www.openvas.org/
+
+=== Gitleaks Full History Scan ===
+
+=== All Files Ever Committed ===
+.claude-project.json
+.claude/data/prompt_patterns.json
+.gitignore
+.validation-artifacts/20260408_233625_architectural_decision.json
+.validation-artifacts/20260408_233625_session_analysis.json
+.validation-artifacts/20260408_233625_session_summary.txt
+.validation-artifacts/20260408_233625_stored_lessons.json
+.validation-artifacts/20260408_233625_task_metrics.json
+.validation-artifacts/20260408_233636_session_end_results.json
+.validation-artifacts/20260408_233705_architectural_decision.json
+.validation-artifacts/20260408_233705_session_analysis.json
+.validation-artifacts/20260408_233705_session_summary.txt
+.validation-artifacts/20260408_233705_stored_lessons.json
+.validation-artifacts/20260408_233705_task_metrics.json
+.validation-artifacts/20260408_233715_session_end_results.json
+.validation-artifacts/20260408_233733_architectural_decision.json
+.validation-artifacts/20260408_233733_session_analysis.json
+.validation-artifacts/20260408_233733_session_summary.txt
+.validation-artifacts/20260408_233733_stored_lessons.json
+.validation-artifacts/20260408_233733_task_metrics.json
+.validation-artifacts/20260408_233741_session_end_results.json
+.validation-artifacts/20260408_233922_architectural_decision.json
+.validation-artifacts/20260408_233922_session_analysis.json
+.validation-artifacts/20260408_233922_session_summary.txt
+.validation-artifacts/20260408_233922_stored_lessons.json
+.validation-artifacts/20260408_233922_task_metrics.json
+.validation-artifacts/20260408_233933_session_end_results.json
+.validation-artifacts/20260408_233939_architectural_decision.json
+.validation-artifacts/20260408_233939_session_analysis.json
+.validation-artifacts/20260408_233939_session_summary.txt
+.validation-artifacts/20260408_233939_stored_lessons.json
+.validation-artifacts/20260408_233939_task_metrics.json
+.validation-artifacts/20260408_233948_session_end_results.json
+.validation-artifacts/20260408_234104_architectural_decision.json
+.validation-artifacts/20260408_234104_session_analysis.json
+.validation-artifacts/20260408_234104_session_summary.txt
+.validation-artifacts/20260408_234104_stored_lessons.json
+.validation-artifacts/20260408_234104_task_metrics.json
+.validation-artifacts/20260408_234114_session_end_results.json
+.validation-artifacts/20260408_234123_architectural_decision.json
+.validation-artifacts/20260408_234123_session_analysis.json
+.validation-artifacts/20260408_234123_session_summary.txt
+.validation-artifacts/20260408_234123_stored_lessons.json
+.validation-artifacts/20260408_234123_task_metrics.json
+.validation-artifacts/20260408_234132_session_end_results.json
+.validation-artifacts/20260408_234135_architectural_decision.json
+.validation-artifacts/20260408_234135_session_analysis.json
+.validation-artifacts/20260408_234135_session_summary.txt
+.validation-artifacts/20260408_234135_stored_lessons.json
+.validation-artifacts/20260408_234135_task_metrics.json
+.validation-artifacts/20260408_234143_session_end_results.json
+.validation-artifacts/20260408_234815_architectural_decision.json
+.validation-artifacts/20260408_234815_session_analysis.json
+.validation-artifacts/20260408_234815_session_summary.txt
+.validation-artifacts/20260408_234815_stored_lessons.json
+.validation-artifacts/20260408_234815_task_metrics.json
+.validation-artifacts/20260408_234824_session_end_results.json
+.validation-artifacts/20260408_234923_architectural_decision.json
+.validation-artifacts/20260408_234923_session_analysis.json
+.validation-artifacts/20260408_234923_session_summary.txt
+.validation-artifacts/20260408_234923_stored_lessons.json
+.validation-artifacts/20260408_234923_task_metrics.json
+.validation-artifacts/20260408_234932_session_end_results.json
+architectural_decisions.json
+fractal_mountain.py
+lessons.json
+logs/notification.json
+logs/session_start.json
+logs/stop.json
+
+=== Lint Output ===
+All checks passed!
