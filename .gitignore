@@ -1,6 +1,12 @@
 __pycache__/
 *.pyc
 .env
+.env.*
+*.key
+*.pem
+*.p12
+*credentials*
+*secrets*
 *.egg-info/
 dist/
 build/
